@@ -1,0 +1,38 @@
+.pList{
+  margin: auto;
+  width: 100%;
+  max-width: 1024px;
+  gap: 50px;
+  display: grid;
+  @media (max-width: 540px){
+    margin-top: 40%;
+    grid-template-columns: auto;
+  }
+  grid-template-columns: auto auto auto;
+}
+
+.pListTitle{
+  margin-top: -45px;
+  margin-left: 2%;
+}
+
+.pListTiles{
+  margin-top: 10%;
+  max-width: 250px;
+  .desc{
+    font-weight: lighter;
+  }
+  .area{
+    color: #92b6c8;
+  }
+}
+
+.pListItems{
+  @media (max-width: 540px){
+    margin: auto;
+  }
+}
+
+.close{
+  display: none;
+}
